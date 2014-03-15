@@ -12,6 +12,11 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="javascripts/PIE.js"></script>
   <![endif]-->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+</style>  
   <link href="favicon.ico" rel="shortcut icon">
   <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -75,11 +80,12 @@
            </h1>
           </div>
           <p class="lead text-center">
-Need something designed, or photographed?  Need a custom illustration for a campaign you are working on or want your wedding photographed? We would love to hear from you, please contact us using one of the methods below.
+We would love to hear from you, please contact us using one of the methods below.
           </p>
           <hr>
           <div class="row-fluid">
             <div class="span6">
+
 <?php  
   
         // check for a successful form post  
@@ -89,34 +95,58 @@ Need something designed, or photographed?  Need a custom illustration for a camp
         elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";  
   
 ?> 
-              <div id="messages"></div>
-            </div>
-            <div class="span6 contact-details">
-              <ul class="icons">
-                <li>
-                  <h4>
-                    <i class="icon-map-marker"></i>
-                    
-                  </h4>
-                  <p>
-              West Chezzetcook<br>
-	      Nova Scotia
-            </p>
+	      <form method="POST" action="contact-form-submission.php" class="form">  
+		<div class="control-group">  
+		    <label class="control-label" for="input1">Name</label>  
+		    <div class="controls">  
+			<input type="text" name="contact_name" id="input1" placeholder="Your name" class="span12">  
+		    </div>  
+		</div>  
+		<div class="control-group">  
+		    <label class="control-label" for="input2">Email Address</label>  
+		    <div class="controls">  
+			<input type="text" class="span12" name="contact_email" id="input2" placeholder="Your email address">  
+		    </div>  
+		</div>  
+		<div class="control-group">  
+		    <label class="control-label" for="input3">Message</label>  
+		    <div class="controls">  
+			<textarea name="contact_message" id="input3" rows="8" class="span12" placeholder="The message you want to send to me."></textarea>  
+		    </div>  
+		</div>  
+		<div class="form-actions">  
+		    <input type="hidden" name="save" value="contact">  
+		    <button type="submit" class="btn">Send</button>  
+		</div>  
+	    </form>  
+	<div id="messages"></div>
+            </div><br><br>
+            <div class="span6 contact-details text-center well">
+                  <address><i class="icon-map-marker"></i> : West Chezzetcook<br>
+		  Nova Scotia</address>
                   </p>
-                </li>
-                <li>
-                  <h4>
-                    <i class="icon-phone"></i>
-                    Contact details
-                  </h4>
-                  <p>
-		    Phone: 902.482.0593
+                  <address>
+		    <i class="icon-phone"></i> : 902.482.0593
                     <br>
-                    Email:  <a href="mailto:info@scsquared.ca">info@scsquared.ca</a>
-                  </p>
-                </li>
-              </ul>
-            </div>
+                    <i class="icon-envelope"></i> : <a href="mailto:info@scsquared.ca">info@scsquared.ca</a>
+                  </address>
+                  <br>
+                  <br>                  
+
+	    <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup text-center">
+<form action="http://sohierchristiephotography.us6.list-manage.com/subscribe/post?u=a33f573e291c9b8964b120649&amp;id=e867b77076" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_a33f573e291c9b8964b120649_e867b77076" value=""></div>
+	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+	    </div>
+            
           </div>
         </div>
       </section>
@@ -141,17 +171,17 @@ Need something designed, or photographed?  Need a custom illustration for a camp
           <div class="span6">
             <ul class="unstyled inline text-right small-screen-center big social-icons">
               <li>
-                <a data-iconcolor="#00a0d1" href="#">
+                <a data-iconcolor="#00a0d1" href="https://twitter.com/SCSquaredca">
                   <i class="icon-twitter"></i>
                 </a>
               </li>
               <li>
-                <a data-iconcolor="#3b5998" href="#">
+                <a data-iconcolor="#3b5998" href="https://www.facebook.com/pages/SCsquared">
                   <i class="icon-facebook"></i>
                 </a>
               </li>
               <li>
-                <a data-iconcolor="#910101" href="#">
+                <a data-iconcolor="#910101" href="https://plus.google.com/+ScsquaredCa/">
                   <i class="icon-google-plus"></i>
                 </a>
               </li>
@@ -179,3 +209,4 @@ Need something designed, or photographed?  Need a custom illustration for a camp
 
 </script>
 </body>
+
