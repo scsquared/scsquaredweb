@@ -95,6 +95,7 @@ We would love to hear from you, please contact us using one of the methods below
         elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";  
   
 ?> 
+
 	      <form method="POST" action="contact-form-submission.php" class="form">  
 		<div class="control-group">  
 		    <label class="control-label" for="input1">Name</label>  
@@ -209,4 +210,5 @@ We would love to hear from you, please contact us using one of the methods below
 
 </script>
 </body>
+</html>
 
