@@ -16,7 +16,7 @@
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 
-</style>  
+</style>
   <link href="favicon.ico" rel="shortcut icon">
   <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -33,7 +33,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </a> 
+            </a>
             <h1 class="brand">
               <a href="index.html">
                 SC<span class="light">&#178;.create.</h1></span></a>
@@ -86,40 +86,40 @@ We would love to hear from you, please contact us using one of the methods below
           <div class="row-fluid">
             <div class="span6">
 
-<?php  
-  
-        // check for a successful form post  
-        if (isset($_GET['s'])) echo "<div class=\"alert alert-success\">".$_GET['s']."</div>";  
-  
-        // check for a form error  
-        elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";  
-  
-?> 
+<?php
 
-	      <form method="POST" action="contact-form-submission.php" class="form">  
-		<div class="control-group">  
-		    <label class="control-label" for="input1">Name</label>  
-		    <div class="controls">  
-			<input type="text" name="contact_name" id="input1" placeholder="Your name" class="span12">  
-		    </div>  
-		</div>  
-		<div class="control-group">  
-		    <label class="control-label" for="input2">Email Address</label>  
-		    <div class="controls">  
-			<input type="text" class="span12" name="contact_email" id="input2" placeholder="Your email address">  
-		    </div>  
-		</div>  
-		<div class="control-group">  
-		    <label class="control-label" for="input3">Message</label>  
-		    <div class="controls">  
-			<textarea name="contact_message" id="input3" rows="8" class="span12" placeholder="The message you want to send to me."></textarea>  
-		    </div>  
-		</div>  
-		<div class="form-actions">  
-		    <input type="hidden" name="save" value="contact">  
-		    <button type="submit" class="btn">Send</button>  
-		</div>  
-	    </form>  
+        // check for a successful form post
+        if (isset($_GET['s'])) echo "<div class=\"alert alert-success\">".$_GET['s']."</div>";
+
+        // check for a form error
+        elseif (isset($_GET['e'])) echo "<div class=\"alert alert-error\">".$_GET['e']."</div>";
+
+?>
+
+	      <form method="POST" action="contact-form-submission.php" class="form">
+		<div class="control-group">
+		    <label class="control-label" for="input1">Name</label>
+		    <div class="controls">
+			<input type="text" name="contact_name" id="input1" placeholder="Your name" class="span12">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="input2">Email Address</label>
+		    <div class="controls">
+			<input type="text" class="span12" name="contact_email" id="input2" placeholder="Your email address">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="input3">Message</label>
+		    <div class="controls">
+			<textarea name="contact_message" id="input3" rows="8" class="span12" placeholder="The message you want to send to me."></textarea>
+		    </div>
+		</div>
+		<div class="form-actions">
+		    <input type="hidden" name="save" value="contact">
+		    <button type="submit" class="btn">Send</button>
+		</div>
+	    </form>
 	<div id="messages"></div>
             </div><br><br>
             <div class="span6 contact-details text-center well">
@@ -132,7 +132,7 @@ We would love to hear from you, please contact us using one of the methods below
                     <i class="icon-envelope"></i> : <a href="mailto:info@scsquared.ca">info@scsquared.ca</a>
                   </address>
                   <br>
-                  <br>                  
+                  <br>
 
 	    <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup text-center">
@@ -147,51 +147,54 @@ We would love to hear from you, please contact us using one of the methods below
 
 <!--End mc_embed_signup-->
 	    </div>
-            
+
           </div>
         </div>
       </section>
 </div>
 </div>
-  <!-- Page Footer -->
-  <footer id="footer" role="contentinfo">
-    <div class="wrapper wrapper-transparent">
-      <div class="container-fluid">
-        <div class="row-fluid">
-          <div class="span6 small-screen-center">
-            <h3>
-              SC&#178;
-            </h3>
-            <p>
-              902.482.0593  |  info@scsquared.ca
-              <br>
-              West Chezzetcook
-              &copy; Copyright 2013
-            </p>
-          </div>
-          <div class="span6">
-            <ul class="unstyled inline text-right small-screen-center big social-icons">
-              <li>
-                <a data-iconcolor="#00a0d1" href="https://twitter.com/SCSquaredca">
-                  <i class="icon-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a data-iconcolor="#3b5998" href="https://www.facebook.com/pages/SCsquared">
-                  <i class="icon-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a data-iconcolor="#910101" href="https://plus.google.com/+ScsquaredCa/">
-                  <i class="icon-google-plus"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+<!-- Page Footer -->
+<footer id="footer" role="contentinfo">
+  <div class="wrapper wrapper-transparent">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span6 small-screen-center">
+          <h2>  Sarah Christie<span class="light"> Illustration</span></h2>
+          <p>902.817.8546  |  <a href="mailto:sarah@scsquared.ca" target="new">sarah@scsquared.ca</a>
+            <br>
+            West Chezzetcook
+            &copy; Copyright 2015
+          </p>
+        </div>
+        <div class="span6">
+          <ul class="unstyled inline text-right small-screen-center big social-icons">
+            <li>
+              <a data-iconcolor="#00a0d1" href="http://www.etsy.com/ca/shop/SarahCIllustrations" target="new">
+                <h2>Etsy <i class="fa fa-shopping-cart"></i></h2>
+              </a>
+            </li>
+             <li>
+              <a data-iconcolor="#3b5998" href="http://schillustrations.tumblr.com/" target="new">
+                <i class="fa fa-tumblr-square"></i>
+              </a>
+            </li>
+            <li>
+             <a data-iconcolor="#3b5998" href="https://www.facebook.com/schillustrations" target="new">
+               <i class="fa fa-facebook-square"></i>
+             </a>
+           </li>
+            <li>
+              <a data-iconcolor="#910101" href="http://instagram.com/schillustrations/" target="new">
+                <i class="fa fa-instagram"></i>
+
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
   <script src="javascripts/jquery.min.js" type="text/javascript"></script>
   <script src="javascripts/bootstrap.js" type="text/javascript"></script>
   <script src="javascripts/jquery.flexslider-min.js" type="text/javascript"></script>
@@ -211,4 +214,3 @@ We would love to hear from you, please contact us using one of the methods below
 </script>
 </body>
 </html>
-
